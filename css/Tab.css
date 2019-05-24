@@ -1,0 +1,59 @@
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .header_contents, .footer_contents{
+    width: 95%;
+  }
+  
+  .main_contents, .section_contents {
+    width: 100%;
+  }
+
+  .iphone_img, .section_title_text  {
+    float: none;
+  }
+
+  .section_title {
+    padding-top: 20px;
+  }
+
+  .section_text {
+    font-size: 15px;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 25px;
+  }
+
+  .article_img {
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  .img_inner {
+    margin: 0;
+  }
+
+  .img_inner:nth-child(3n) {
+    margin-bottom: 80px;
+  }
+
+  .article_sent {
+    padding-top: 0;
+  }
+
+  .article_text {
+    width: 90%;
+    padding-bottom: 40px;
+  }
+
+  .article_email {
+    margin: 0 auto;
+  }
+
+  .circle_contents {
+    width: 122px;
+    margin: 0 auto;
+  }
+
+  .circle_text {
+    padding-bottom: 88px;
+  }
+}
