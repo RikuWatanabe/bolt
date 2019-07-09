@@ -3,6 +3,10 @@
     width: 95%;
   }
 
+  .header_contents {
+    text-align: right;
+  }
+
   .contact_btn {
     display: none;
   }
@@ -17,7 +21,6 @@
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 4px;
-    float: right;
   }
   .humberger div {
     position: absolute;
