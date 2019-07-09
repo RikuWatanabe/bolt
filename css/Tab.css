@@ -1,10 +1,10 @@
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-  .header_inner, .footer{
+  .header .header_inner {
     width: 95%;
   }
-  
-  .title, .section_contents {
-    width: 100%;
+
+  .inner {
+    width: 768px;
   }
 
   .iphone_img, .section_title_text  {
