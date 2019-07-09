@@ -1,9 +1,9 @@
 @media screen and (max-width: 767px) {
-  .header_contents, .footer_contents{
+  .header_inner, .footer{
     width: 95%;
   }
 
-  .header_contents {
+  .header_inner {
     text-align: right;
   }
 

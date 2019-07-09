@@ -1,9 +1,9 @@
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-  .header_contents, .footer_contents{
+  .header_inner, .footer{
     width: 95%;
   }
   
-  .main_contents, .section_contents {
+  .title, .section_contents {
     width: 100%;
   }
 
