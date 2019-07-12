@@ -1,25 +1,19 @@
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-  .header .header_inner {
-    width: 95%;
-  }
-
   .inner {
-    width: 768px;
+    width: 97%;
   }
 
-  .iphone_img, .section_title_text  {
-    float: none;
+  .section_contents {
+    padding-bottom: 25px;
   }
 
   .section_title {
-    padding-top: 20px;
+    margin-top: 20px;
   }
 
   .section_text {
-    font-size: 15px;
-    width: 90%;
+    width: 97%;
     margin: 0 auto;
-    padding-bottom: 25px;
   }
 
   .article_img {
@@ -27,21 +21,21 @@
     margin: 0 auto;
   }
 
-  .img_inner {
+  .img_tag {
     margin: 0;
   }
 
-  .img_inner:nth-child(3n) {
+  .img_tag_top:nth-child(3n) {
     margin-bottom: 80px;
   }
 
   .article_sent {
-    padding-top: 0;
+    margin-top: 80px;
   }
 
   .article_text {
-    width: 90%;
-    padding-bottom: 40px;
+    width: 97%;
+    margin-bottom: 40px;
   }
 
   .article_email {
@@ -49,11 +43,16 @@
   }
 
   .circle_contents {
-    width: 122px;
     margin: 0 auto;
+    width: 122px;
   }
 
-  .circle_text {
-    padding-bottom: 88px;
+  .circle_contents_list, .circle_contents_list:first-child {
+    margin: 0 auto;
+    margin-bottom: 88px;
+  }
+
+  .icon_inner {
+    width: 182px;
   }
 }
